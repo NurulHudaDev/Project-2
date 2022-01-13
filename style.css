@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1ff;
+}
+/* navbar */
+.navbar{
+    background-color: blue;
+    padding: 20px;
+}
+.navbar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 870px;
+    
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin-left: 20px;
+    color: #fff;
+}
+.logo img{
+    width: 50px;
+    height: 60px;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+}
+.menubar ul{
+    display: flex;
+    margin-right: 20px;
+}
+.menubar ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menubar img{
+    width: 60px;
+    height: 60px;
+}
+/* Top Players style */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.section-titel{
+    color: blue;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 40px;
+}
+.players img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-name{
+    margin-left: 15px;
+}
+hr{
+    border: 1px solid gainsboro;
+    margin-bottom: 30px;
+}
+/* top blogs styles */
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-titel{
+    font-size: 20px;
+}
+.blog-author{
+    color: gainsboro;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+/* courses styles */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course{
+    width: 224px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 14px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-duration{
+    background-color: #ffd5db;
+    padding: 5px;
+    border-radius: 15px;
+    color: #FF4A60;
+}
