@@ -149,3 +149,48 @@ hr{
     border-radius: 15px;
     color: #FF4A60;
 }
+/*------------------
+    media query 
+ -------------------*/
+ /* mobile device */
+ @media only screen and (max-width:688px){
+     .container{
+         width: 100%;
+     }
+     .navbar-1{
+         width: 100%;
+     }
+     .logo{
+         align-items: center;
+     }
+     .logo img{
+         width: 20px;
+         height: 20px;
+     }
+     .logo h1{
+         font-size: 20px;
+         align-items: center;
+     }
+     .menubar img{
+        display: none;
+     }
+     .menubar{
+         background-image: url(images/icons/profile.png);
+         background-repeat: no-repeat;
+     }
+     .menubar ul{
+        display: block;
+     }
+     .players, .blogs, .courses{
+         grid-template-columns: repeat(1, 1fr);
+         align-items: center;
+     }
+     .section-titel{
+         text-align: center;
+     }
+     .player, .blog, .course{
+         flex-direction: column;
+         margin: auto;
+     }
+ }
+
