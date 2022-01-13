@@ -183,7 +183,6 @@ hr{
      }
      .players, .blogs, .courses{
          grid-template-columns: repeat(1, 1fr);
-         align-items: center;
      }
      .section-titel{
          text-align: center;
